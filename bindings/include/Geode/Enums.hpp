@@ -363,7 +363,6 @@ enum class GJAreaActionType {};
 enum class GJSmartDirection {};
 enum class SmartBlockType {};
 enum class TouchTriggerControl {};
-enum class SmartPrefabResult {};
 enum class AudioSortType {
     NameAscending = 0,
     NameDescending = 1,
@@ -489,7 +488,11 @@ enum class AudioGuidelinesType {
     BPMFinder = 1
 };
 enum class SmartBrowseFilter {};
-enum class GJUITouchEvent {};
+enum class GJUITouchEvent {
+    Pressed = 0,
+    Moved = 1,
+    Ended = 2
+};
 enum class ObjectScaleType {
     XY = 0,
     X = 1,
