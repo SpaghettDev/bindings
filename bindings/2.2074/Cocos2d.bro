@@ -986,9 +986,9 @@ class cocos2d::CCNode : cocos2d::CCObject {
     void detachChild(cocos2d::CCNode*, bool);
     void insertChild(cocos2d::CCNode*, int);
     unsigned int numberOfRunningActions();
-    void pauseSchedulerAndActions();
+    void pauseSchedulerAndActions() = m1 0x20dc28, imac 0x261e70;
     void qsortAllChildrenWithIndex();
-    void resumeSchedulerAndActions() = imac 0x261c50, m1 0x20da08;
+    void resumeSchedulerAndActions() = m1 0x20da08, imac 0x261c50;
     cocos2d::CCAction* runAction(cocos2d::CCAction*) = imac 0x261f80, m1 0x20dd34;
     void schedule(cocos2d::SEL_SCHEDULE) = imac 0x2621b0, m1 0x20dee8;
     void schedule(cocos2d::SEL_SCHEDULE, float) = imac 0x262210, m1 0x20df28;
